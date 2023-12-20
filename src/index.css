@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
   --container-width-lg: 76%;
   --container-width-md: 90%;
 
-  --transition: all 500ms ease;
+  --transition: all 500ms ease-in-out;
 }
 
 html {
@@ -37,13 +37,13 @@ html {
   margin-inline: auto;
   max-width: 1920px;
 }
-
+/* 
 span {
   color: var(--span-color);
   font-size: 2rem;
   display: flex;
   padding: 0;
-}
+} */
 section {
   background: var(--bg-color);
   padding: 10rem 0;
@@ -57,16 +57,17 @@ section > h2 {
 }
 section > p {
   text-align: center;
-  margin: 0.5rem auto 4rem;
+  /* margin: 0.5rem auto 4rem; */
   width: 40%;
 }
 a {
   color: var(--dark-teal);
 }
 a:hover {
-  color: var(--bg-color);
+  color: var(--primary-color);
   cursor: pointer;
   transition: var(--transition);
+  transform: scale(1.1);
 }
 h1,
 h2,
@@ -74,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.1rem;
+  /* line-height: 2.6rem; */
   color: var(--dark-teal);
 }
 h1 {
@@ -106,7 +107,7 @@ img:hover {
 }
 .btn__container {
   display: flex;
-  gap: 1.6rem;
+  gap: 1.2rem;
   padding-top: 2rem;
 }
 .btn {
@@ -114,35 +115,33 @@ img:hover {
   width: fit-content;
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 0.5rem;
   background: var(--primary-color);
   color: var(--secondary-color);
   padding: 0.6rem 2.5rem;
-  border-radius: 0.9rem;
+  /* border-radius: 0.9rem; */
   cursor: pointer;
 }
 
 .btn:hover {
   background: transparent;
-
   border-radius: 0.9rem solid var(--secondary-color);
   transform: translateY(0.5rem);
   transition: var(--transition);
 }
-.btn .btn_white {
+.btn__white {
   background: transparent;
 }
-.btn_white:hover {
+.btn__white:hover {
   color: var(--secondary-color);
-  border-radius: 0.9rem solid var(--secondary-color);
-  transform: translateY(0.5rem);
+  transform: translateY(0.2rem);
   transition: var(--transition);
   color: var(--dark-teal);
-  background: var(--bg-color);
+  background: var(--primary-color);
 }
 
 .btn__sm {
-  padding: 0.5rem1.2rem;
+  padding: 0.5rem.2rem;
 }
 /* MEDIA QUERRIS */
 @media screen and (max-width: 1024px) {

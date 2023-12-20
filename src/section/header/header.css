@@ -4,3 +4,32 @@
   align-items: center;
   justify-content: space-between;
 }
+.left__container {
+}
+.intro_p {
+  font-size: 1.6rem;
+}
+span {
+  color: var(--primary-color);
+}
+.header__right-profile img {
+  width: 400px;
+  align-items: center;
+  margin-left: 8rem;
+}
+.header__right-profile img:hover {
+  transition: var(--transition);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.header__socials {
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+}
+.header__socials a {
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
