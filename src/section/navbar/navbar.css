@@ -47,6 +47,7 @@ nav img {
   .menu__icon {
     display: flex;
     font-size: 1.8rem;
+    color: var(--dark-teal);
     cursor: pointer;
   }
 }
