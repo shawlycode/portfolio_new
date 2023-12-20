@@ -12,6 +12,7 @@ const Header = () => {
         <div className="left__container">
           <p className="intro_p">Hello I'm</p>
           <h2>Akwasi <span>Adabo</span> Boakye</h2>
+          <h4>Software Developer and <span>Entrepreneur</span></h4>
           <p>A seasoned and versatile professional with a decade of experience in both software development and entrepreneurship, I have demonstrated a strong commitment to innovation, technical excellence, and business acumen. Throughout my career...</p>
           <div className="btn__container">
             <button className="btn">Hire Me</button>

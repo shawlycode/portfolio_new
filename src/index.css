@@ -92,11 +92,11 @@ h4 {
 }
 h5 {
   font-size: 0.95rem;
+  text-align: center;
 }
 h6 {
   font-size: 0.8rem;
 }
-
 img {
   display: block;
   width: 100%;
@@ -162,6 +162,7 @@ img:hover {
     width: 72%;
     margin-bottom: 3rem;
   }
+
   h1 {
     font-size: 2rem;
   }
