@@ -8,6 +8,7 @@ import Achievements from './section/achievement/Achievements'
 import Testimonials from './section/testimonials/Testimonials'
 import Contact from './section/contact/Contact'
 import Footer from './section/footer/Footer'
+import Skills from './section/skills/Skills'
 
 const App = () => {
   return (
@@ -19,8 +20,9 @@ const App = () => {
       <Experience />
       <Achievements />
       <Portfolio />
-      <Testimonials />
+      <Skills />
       <Contact />
+      <Testimonials />
       <Footer />
 
     </div>
