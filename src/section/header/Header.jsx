@@ -1,11 +1,12 @@
 import "./header.css"
-import profile from '../../assets/pro.png'
+import video from '../../assets/video.mp4';
 
 import data from '../header/data'
 
 
 
 const Header = () => {
+
   return (
     <section id="header">
       <div className="container header__container">
@@ -20,7 +21,8 @@ const Header = () => {
           </div>
         </div>
         <div className="header__right-profile">
-          <img src={profile} alt="logo" />
+          <video src={video} loop={Infinity} autoPlay={true} width="100%" controls={false}
+          />
         </div>
         <div className="header__socials">
           {data.map(item => <a href={item.link} key={item.id}>{item.icon}</a>)}
