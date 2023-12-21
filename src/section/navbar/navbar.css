@@ -34,6 +34,47 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+.app__navbar-smallScreen {
+  display: none;
+}
+
+.app__navbar-smallScreen_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  flex-direction: column;
+  background: var(--bg-color);
+}
+
+.app__navbar-smallScreen-links {
+  list-style: none;
+}
+
+.app__navbar-smallScreen-links li {
+  margin: 2rem;
+  cursor: pointer;
+  color: var(--color-golden);
+  font-size: 2rem;
+  font-family: var(--font-base);
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.app__navbar-smallScreen-links li:hover {
+  color: var(--color-white);
+}
+
+.app__navbar-smallScreen_overlay .overlay__close {
+  font-size: 27px;
+  cursor: pointer;
+  background: var(--color-golden);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 .nav__container span {
   color: rgb(1, 7, 12);
 }
@@ -66,5 +107,18 @@ p {
     font-size: 1.8rem;
     color: var(--dark-teal);
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__navbar {
+    padding: 1rem;
+  }
+  .app__navbar-login {
+    display: none;
+  }
+  .app__navbar-smallScreen {
+    display: flex;
+    background: var(--bg-color);
   }
 }
