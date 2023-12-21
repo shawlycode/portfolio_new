@@ -12,18 +12,31 @@ nav {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-nav img {
+.nav__logo {
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fb7413;
 }
 .nav__logo {
+  -webkit-animation: logo 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: logo 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+/* .nav__logo {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
   overflow: hidden;
-}
+} */
 .nav__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+h3,
+p {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .nav__links {
   display: flex;

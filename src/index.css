@@ -48,6 +48,7 @@ section {
   background: var(--bg-color);
   padding: 10rem 0;
   transition: var(--transition);
+  height: 100vh;
 }
 section:nth-child(even) {
   background: var(--bg2-color);

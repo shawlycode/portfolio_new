@@ -1,8 +1,13 @@
 import './footer.css'
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
+
   return (
-    <section id="footer"><h2>Footer</h2></section>
+    <footer>
+      <h6>All rights  reserved @ Adabo. | {year}</h6>
+    </footer>
   )
 }
 

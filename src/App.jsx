@@ -1,12 +1,12 @@
 import './app.css'
 import Navbar from './section/navbar/Navbar'
-import Portfolio from './section/portfolio/Portfolio'
+// import Portfolio from './section/portfolio/Portfolio'
 import Header from './section/header/Header'
 import About from './section/about/About'
-import Experience from './section/experience/Experience'
+// import Experience from './section/experience/Experience'
 import Achievements from './section/achievement/Achievements'
 import Testimonials from './section/testimonials/Testimonials'
-import Contact from './section/contact/Contact'
+// import Contact from './section/contact/Contact'
 import Footer from './section/footer/Footer'
 import Skills from './section/skills/Skills'
 
@@ -17,11 +17,11 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Achievements />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
       <Testimonials />
       <Footer />
 
