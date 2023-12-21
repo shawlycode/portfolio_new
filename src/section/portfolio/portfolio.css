@@ -1,0 +1,40 @@
+.portfolio__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 50px;
+}
+.row img {
+  border-radius: 0.9rem;
+  transition: transform 0.5s;
+}
+
+.layer {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), #b37342);
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.5s;
+}
+.layer h5 {
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+  font-weight: 600;
+}
+.layer p {
+  font-size: 12px;
+}
+.row:hover img {
+  transform: scale(1.1);
+}
+.row:hover .layer {
+  height: 100%;
+}

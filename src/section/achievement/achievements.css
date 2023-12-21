@@ -14,6 +14,7 @@
   border-radius: 0.9rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   transition: var(--transition);
+  margin-bottom: 2rem;
 }
 .achievements__box:hover {
   transform: translateY(-8px);
