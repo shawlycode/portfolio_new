@@ -3,8 +3,14 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: space-between;
+  background-color: #000;
 }
-
+#header {
+  background-color: #000;
+}
+video {
+  cursor: pointer;
+}
 .intro_p {
   font-size: 1.6rem;
 }
@@ -39,14 +45,11 @@ span {
     display: flex;
     flex-direction: column;
   }
-  .header__right-profile img {
-    width: 200px;
+  .header__right-profile video {
+    width: 100%;
     margin: 2rem 0;
   }
-  .header__right-profile img:hover {
-    transform: none;
-    opacity: 1;
-  }
+
   .header__socials {
     position: absolute;
     left: 7%;

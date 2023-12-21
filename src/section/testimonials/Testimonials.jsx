@@ -30,22 +30,20 @@ const Testimonies = () => {
         <div>
           <img src={testimonies} alt="" />
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Nkrumah Ofori</h3>
+            <h4>ECG</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+              He's an awesome developer and a serial Entrepreneur and he delivers's excellent works. I recommend him for anyone having a project.
             </p>
           </div>
         </div>
         <div>
           <img src={testimonies} alt="" />
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Benjamin Mahama</h3>
+            <h4>VRA</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+              Fantastic Entrepreneur with a lot of tech skills under his sleeve. He develops intuitive applications.
             </p>
           </div>
         </div>
